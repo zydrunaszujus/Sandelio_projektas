@@ -11,11 +11,12 @@ h1{
     text-align: center;
     text-decoration: dotted;
    color:rgb(247, 103, 8);
+   border: 10px;
 }
 
 
 .mygtukas1,.mygtukas2,.mygtukas3,.mygtukas4,.mygtukas5,.mygtukas6{
-    cursor: pointer;
+   
     font-size: 50px;
     margin: 10px;
     color:rgb(223, 72, 17); 
@@ -26,8 +27,9 @@ h1{
     padding: 10px;
     box-shadow: 5px 5px #4f4f4f;
 }
-.mygtukas1:hover,.mygtukas2:hover,.mygtukas3:hover,.mygtukas4:hover,.mygtukas5:hover,.mygtukas6:hover{
+.mygtukas1:hover,.mygtukas2:hover,.mygtukas3:hover,.mygtukas4:hover,.mygtukas5:hover,.mygtukas6:hover,.mygtukas:hover{
     color: violet;
+    cursor:pointer;
 }
 .mygtukas1{
     background-image:url("foto/ElVariklis.jpg");    
@@ -53,13 +55,72 @@ h1{
     background-image:url("foto/daviklis.jpg");
 }
 p{
-    text-align:end;
+    text-align:center;
     font-size: 40px;
     text-shadow:3px 6px slateblue;
     color: rgb(133, 6, 6);
 
 }
+h2{
+    text-align:center;
+    font-size: 50px;
+    text-shadow:3px 6px slateblue;
+    color: rgb(133, 6, 6);
+}
 .atgal{
     font-size: 30px;
     color: red;
 }
+#varikliai,#davikliai,#kabeliai,#keitikliai,#paleidejai,#reles{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.mygtukas{
+    
+    text-align: center;
+    font-size: 20px;
+    background-color:rgb(189, 189, 96) ;
+}
+
+
+
+.vienfazis{
+    
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    
+}
+.vienfazis.sarasas{
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+.vienfazis.sarasas::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.vienfazis .parodyk {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
