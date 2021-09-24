@@ -1,0 +1,65 @@
+
+body{
+    background-color: lightgreen;
+}
+.mygtukai{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    text-decoration: dotted;
+   color:rgb(247, 103, 8);
+}
+
+
+.mygtukas1,.mygtukas2,.mygtukas3,.mygtukas4,.mygtukas5,.mygtukas6{
+    cursor: pointer;
+    font-size: 50px;
+    margin: 10px;
+    color:rgb(223, 72, 17); 
+    background-size: cover;
+    width: 350px;
+    height: 200px;  
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px #4f4f4f;
+}
+.mygtukas1:hover,.mygtukas2:hover,.mygtukas3:hover,.mygtukas4:hover,.mygtukas5:hover,.mygtukas6:hover{
+    color: violet;
+}
+.mygtukas1{
+    background-image:url("foto/ElVariklis.jpg");    
+}
+
+.mygtukas2{
+    background-image:url("foto/kabelis.jpg");   
+}
+
+.mygtukas3{
+    background-image:url("foto/keitiklis.jpg");      
+}
+
+.mygtukas4{
+    background-image:url("foto/paleidejas.jpg");      
+}
+
+.mygtukas5{
+    background-image:url("foto/rele.jpg");   
+}
+
+.mygtukas6{
+    background-image:url("foto/daviklis.jpg");
+}
+p{
+    text-align:end;
+    font-size: 40px;
+    text-shadow:3px 6px slateblue;
+    color: rgb(133, 6, 6);
+
+}
+.atgal{
+    font-size: 30px;
+    color: red;
+}
