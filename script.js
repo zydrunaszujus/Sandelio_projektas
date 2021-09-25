@@ -1,6 +1,5 @@
-function myFunction1() {
+  function myFunction1() {
      window.open("link/varikliai.html");
-    
   }
   function myFunction2() {
     window.open("link/kabeliai.html");
@@ -18,19 +17,40 @@ function myFunction1() {
     window.open("link/davikliai.html");
   }
   
-  // function sinchroniniai(){
-  //   var element = document.getElementById("sinchron");
-  //   emitEvent(element, 'sinch');
-  // }
-  
-  function sinchroniniai() {
-    if ( document.getElementById ) {
-    target = document.getElementById("sinchron");
-    if ( target.style.display == "none" ) {
-    target.style.display = "";
-    } else {
-    target.style.display = "none";
-    }
-    }
+  var varikliai=getElementById("varikliai");
+  var mygtukasS=document.getElementById("mygtasS");
+  var mygtukasA=document.getElementById("mygtasA");
+  var mygtukasZ=document.getElementById("mygtasZ");
+
+  var sinchro=document.getElementById("sinch");   
+  var asinchro=document.getElementById("asinch"); 
+  var zings=document.getElementById("zingsn");
+ 
+  function varikliai(){
+    style.display="none";
+  }
+
+   mygtukasS.onclick=function(){
+    sinchro.style.display="block";
    }
-   
+
+   mygtukasA.onclick=function(){
+    asinchro.style.display="block"; 
+   }
+
+   mygtukasZ.onclick=function(){
+     zings.style.display="block";
+   }
+
+
+    
+  var uzdarytiVariklius=getElementById("varikliai")
+  window.onclick=function(event){
+    if(event.target==varikliai){
+      sinchro.style.display="none";
+      asinchro.style.display="none";
+      zings.style.display="none";
+    }
+  }
+
+

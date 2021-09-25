@@ -27,7 +27,7 @@ h1{
     padding: 10px;
     box-shadow: 5px 5px #4f4f4f;
 }
-.mygtukas1:hover,.mygtukas2:hover,.mygtukas3:hover,.mygtukas4:hover,.mygtukas5:hover,.mygtukas6:hover,.mygtukas:hover{
+.mygtukas1:hover,.mygtukas2:hover,.mygtukas3:hover,.mygtukas4:hover,.mygtukas5:hover,.mygtukas6:hover,.mygtukas:hover,#mygtas{
     color: violet;
     cursor:pointer;
 }
@@ -78,36 +78,19 @@ h2{
     
    
 }
-.mygtukas{
+.mygtukas,#mygtas{
     
     text-align: center;
-    font-size: 20px;
-    background-color:rgb(189, 189, 96) ;
-}
-
-
-
-.vienfazis{
-    
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
+    font-size: 30px;
     
 }
-.vienfazis.sarasas{
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-}
-#sinch{
-   
+
+
+.uzdaryti{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 30px;
+  cursor: pointer;
+
 }
