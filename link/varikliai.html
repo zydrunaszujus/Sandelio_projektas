@@ -15,53 +15,41 @@
     </div>
 
     <div class="mygtukas">
-        <button id="mygtasS" title="Sinchroniniai varikliai">Sinchroniniai varikliai</button>
-        <button id="mygtasA" title="Asinchroniniai varikliai">Asinchroniniai varikliai</button>
-        <button id="mygtasZ" title="Žingsniniai varikliai">Žingsniniai varikliai</button>
+        <button id="mygtasS" class="mygtukas"title="Sinchroniniai varikliai">Sinchroniniai varikliai</button>
+        <button id="mygtasA" class="mygtukas"title="Asinchroniniai varikliai">Asinchroniniai varikliai</button>
+        <button id="mygtasZ"class="mygtukas" title="Žingsniniai varikliai">Žingsniniai varikliai</button>
 
-    </div id="varikliai" style.display="none">
-   <div>
-       <div id="sinch" class="sincroniniai">
-            <div onclick="document.getElementById('sinch').style.display='none'" class="Sudetis">
+    </div>
+  
+       <div  class="varikliai">
+            <div id="sinch" onclick="document.getElementById('sinch').style.display='none'" class="sudetis" >
                 <span class="uzdaryti">&times;</span>
-                <img alt="4 kw" src="../foto/varikliai/sinchroniniai/sinch1.jpg" title="4 kW">
-                <img alt="7 kw" src="../foto/varikliai/sinchroniniai/sinch2.jpg" title="7 kW">
-                <img alt="10 kw" src="../foto/varikliai/sinchroniniai/sinch3.jpg" title="10 kW">
+                <button type="button"><img alt="4 kw" src="../foto/varikliai/sinchroniniai/sinch1.jpg" title="4 kW">4 KW</button>
+                <button type="button"><img alt="7 kw" src="../foto/varikliai/sinchroniniai/sinch2.jpg" title="7 kW">7 kW</button>
+                <button type="button"><img alt="10 kw" src="../foto/varikliai/sinchroniniai/sinch3.jpg" title="10 kW">10 kW</button>
 
             </div>
-        </div>
-
-        <div id="asinch" class="asinchroniniai">
-            <div onclick="document.getElementById('asinch').style.display='none'"  class="Sudetis">
+            
+       
+            <div id="asinch"onclick="document.getElementById('asinch').style.display='none'"  class="sudetis">
                 <span class="uzdaryti">&times;</span>
-                <img alt="2 kw" src="../foto/varikliai/asinchroniniai/asinch1.jpg" title="2 kW">
-                <img alt="8 kw" src="../foto/varikliai/asinchroniniai/asinch2.jpg" title="8 kW">
-                <img alt="20 kw" src="../foto/varikliai/asinchroniniai/asinch3.jpg" title="20 kW">
+                <button type="button"><img alt="2 kw" src="../foto/varikliai/asinchroniniai/asinch1.jpg" title="2 kW">2 kW</button>
+                <button type="button"><img alt="8 kw" src="../foto/varikliai/asinchroniniai/asinch2.jpg" title="8 kW">8 kW</button>
+                <button type="button"><img alt="20 kw" src="../foto/varikliai/asinchroniniai/asinch3.jpg" title="20 kW">20 kW</button>
 
             </div>
-        </div>
-
-        <div id="zingsn" class="zingsniniai">
-            <div onclick="document.getElementById('zingsn').style.display='none'" class="Sudetis">
-                <span class="uzdaryti">&times;</span>
-                <img alt="1 kw" src="../foto/varikliai/zingsniniai/zings1.jpg" title="1 kW">
-                <img alt="3 kw" src="../foto/varikliai/zingsniniai/zings2.jpg" title="3 kW">
-                <img alt="4 kw" src="../foto/varikliai/zingsniniai/zings3.jpg" title="4 kW">
-                <img alt="0.75 kw" src="../foto/varikliai/zingsniniai/zings4.jpg" title="0.75 kW">
-
-            </div>
-        </div>
-
-   </div>
         
-      
-    
 
+        
+            <div id="zingsn" onclick="document.getElementById('zingsn').style.display='none'" class="sudetis">
+                <span class="uzdaryti">&times;</span>
+                <button type="button"><img alt="1 kw" src="../foto/varikliai/zingsniniai/zings1.jpg" title="1 kW">1 kW</button>
+                <button type="button"><img alt="3 kw" src="../foto/varikliai/zingsniniai/zings2.jpg" title="3 kW">3 kW</button>
+                <button type="button"><img alt="4 kw" src="../foto/varikliai/zingsniniai/zings3.jpg" title="4 kW">4 kW</button>
+                <button type="button"><img alt="0.75 kw" src="../foto/varikliai/zingsniniai/zings4.jpg" title="0.75 kW">0.75 kW</button>
 
-
-
-
-
+            </div>
+        </div>
 
 </body>
 <script src="../script.js"></script>
