@@ -19,12 +19,4 @@
 
    mygtukasZ.onclick=function(){
      zings.style.display="block";
-   }
-   
-  
-  
-  
-
-
-   
-   
+   } 
